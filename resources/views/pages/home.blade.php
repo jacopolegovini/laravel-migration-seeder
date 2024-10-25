@@ -4,9 +4,6 @@
 
 @section("main-content")
 <main class="container">
-    <h1>
-        Homepage
-    </h1>
     <div class="train-general-list d-flex">
         <div class="card">
             <ul>

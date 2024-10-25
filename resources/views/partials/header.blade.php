@@ -1,5 +1,5 @@
-<header>
+<header class="container">
     <h1>
-        Header
+        Train Info
     </h1>
 </header>
