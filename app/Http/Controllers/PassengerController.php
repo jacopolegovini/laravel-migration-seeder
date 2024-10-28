@@ -14,6 +14,6 @@ class PassengerController extends Controller
     {
 
         $passengers = Passenger::all();
-        return view("pages.passenger", compact("passengers"))->name('passenger');
+        return view("pages.passenger", compact("passengers"));
     }
 }
