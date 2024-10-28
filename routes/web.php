@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CheckerController;
 use App\Http\Controllers\TrainController;
 use App\Http\Controllers\PassengerController;
 use App\Http\Controllers\TicketController;
@@ -19,3 +20,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [TrainController::class, 'index'])->name('train');
 Route::get('/passenger', [PassengerController::class, 'index'])->name('passenger');
 Route::get('/ticket', [TicketController::class, 'index'])->name('ticket');
+Route::get('/checker', [CheckerController::class, 'index'])->name('checker');
