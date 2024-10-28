@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [TrainController::class, 'index'])->name('train');
+Route::get('/passenger', [PassengerController::class, 'index'])->name('passenger');
