@@ -4,6 +4,12 @@
 
 @section("main-content")
 <main class="container">
-    @dump($tickets)
+    <table>
+        <tr>
+            @foreach ( as )
+
+            @endforeach
+        </tr>
+    </table>
 </main>
 @endsection

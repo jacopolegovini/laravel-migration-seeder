@@ -13,9 +13,10 @@ return new class extends Migration
     {
         Schema::create('tickets', function (Blueprint $table) {
             $table->id();
-            $table->tinyInteger('train_number');
+            $table->string('user_name');
+            $table->bigInteger('train_number');
             $table->date('departure_date');
-
+            $table->time('departure_time');
             $table->timestamps();
         });
     }
