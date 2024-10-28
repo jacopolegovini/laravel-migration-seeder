@@ -5,11 +5,20 @@
 @section("main-content")
 <main class="container">
     <table>
-        @foreach ($tickets as $ticket)
-        <tr>
-
-        </tr>
-        @endforeach
+        <thead>
+            <th>
+                Name
+            </th>
+            <th>
+                Train Number
+            </th>
+            <th>
+                Departure Date
+            </th>
+            <th>
+                Departure Time
+            </th>
+        </thead>
         @foreach ($tickets as $ticket)
         <tr>
             <td>
